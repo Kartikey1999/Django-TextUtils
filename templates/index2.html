@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Utils</title>
+  </head>
+  <body>
+    <h1>Welcome stranger</h1>
+
+    <form action="/analyze" method="get">
+      <textarea
+        name="text"
+        style="margin: 0px; width: 1514px; height: 173px"
+      ></textarea>
+      <button type="submit">Analyze text</button><br>
+
+      <input type="checkbox" name="removepunc" />Remove punctuation<br>
+      <input type="checkbox" name="fullcaps" />UPPER CASE<br>
+      <input type="checkbox" name="newlineremover" />New line remover<br>
+      <input type="checkbox" name="charcounter" />Char counter<br>
+    </form>
+  </body>
+</html>
